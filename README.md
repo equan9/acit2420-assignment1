@@ -32,7 +32,7 @@ Step 3: Customize the path you copy/pasted
 - Replace "youremail@email.com" with your desired email address
 
 Step 4: Press the "Enter" key. You will be asked to enter a passphrase or to leave it empty for no passphrase. You will then receive a confirmation message that your key has now been created. 
-![passphrase](passphrase.png)
+
 
 
 
