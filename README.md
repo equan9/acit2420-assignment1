@@ -57,6 +57,7 @@ Click on the file name to download it automatically.
 Step 4: Log into your Digital Ocean account. 
 
 Step 5: On the left hand side, under 'Manage', click 'Backups & Snapshots'. 
+
 ![backups](./assets/backups.png)
 
 Step 6: Click 'Custom Images'. 
