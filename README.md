@@ -129,6 +129,13 @@ Step 3: Press the 'Enter' key. You are now entering the server.
 
 Step 4: When you want to exit the SSH key connection from the server, type 'exit' and press the 'Enter' key. You have now successfully connected your SSH Key to your Droplet (server). 
 
+# Sources
+- [Cloudflare: What is SSH? | Secure Shell (SSH) Protocol] (https://www.cloudflare.com/learning/access-management/)what-is-ssh/
+- [Papertrail Guides: Digital Ocean] (https://www.papertrail.com/solution/guides/digitalocean/)
+- [Digital Ocean: Custom Images Quickstart] (https://docs.digitalocean.com/products/custom-images/getting-started/quickstart/)
+- [Linux for System Administrators: Chapter 1] (https://learning.oreilly.com/library/view/linux-for-system/9781803247946/B18575_01.xhtml#_idParaDest-24)
+
+
 
 
 
