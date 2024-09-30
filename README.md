@@ -115,6 +115,21 @@ Step 8: Under 'Finalize Details', change the Hostname to a unique name that you 
 
 Step 9: Click 'Create Droplet'. You have now successfully create your Droplet. 
 
+# Connect your SSH Key to your Droplet (server)
+Lastly, you will need to connect your SSH key to your Droplet so you can use it to authenticate all communication deployed from your Droplet. You will need your SSH key whenever you want to connect to this server. Now, let's get started! 
+
+Step 1: In the Windows PowerShell command-line, copy and paste this command. 
+```
+ssh -i .ssh/ocean-key arch@your-droplets-ip-address
+```
+
+Step 2: Customize the command by changing the key name and adding the IP address of your droplet. 
+
+Step 3: Press the 'Enter' key. You are now entering the server. 
+
+Step 4: When you want to exit the SSH key connection from the server, type 'exit' and press the 'Enter' key. You have now successfully connected your SSH Key to your Droplet (server). 
+
+
 
 
 
