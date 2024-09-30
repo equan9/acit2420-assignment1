@@ -53,6 +53,7 @@ Step 10: On the right hand side, click 'Add SSH Key'.
 
 Step 11: Paste the public key contents that you copied earlier and type a name for your key. After, click 'Add SSH Key'. 
 ![ssh key config](./assets/keyconfig.png)
+
 You have now successfully connected your public key to your DigitalOcean account. 
 
 
