@@ -91,10 +91,29 @@ As highlighted in the image above, under 'Choose a Distribution', select 'Arch L
 Step 8: Click 'Upload Image'. You have now successfully added your Arch Linux image to Digital Ocean. 
 
 # Create a Droplet
-Next, you will need a create a Droplet. A Droplet is 
+Next, you will need a create a Droplet. A Droplet is a server that allows you to run a Linux Virtual Machine(VM). The Droplet will be initialized with the Arch Linux image that you have just uploaded. It will also use the SSH key pair you have created for authentication purposes. Now, let's get started!
 
-Once you have logged in, on the top right hand side, click 'Create'. 
+Step 1: On the top right hand side of your Digital Ocean account, click 'Create'. 
 ![create](./assets/create.png)
+
+Step 2: Click 'Droplets' from the drop-down menu. 
+![create droplets](./assets/createdroplets.png)
+
+Step 3: Under 'Choose Region', click 'San Francisco'. 'Datacenter 3' should be selected. 
+![region and datacenter](./assets/datacenter3.png)
+
+Step 4: Under 'Choose an Image', click the 'Custom images' tab and select the Arch Linux image that was uploaded from earlier. 
+
+Step 5: Under 'Choose Size', click 'Basic'. 
+
+Step 6: Under 'CPU options', click 'Premium AMD' and then click the '$7/mo' option. 
+![cpu options](./assets/cpuoptions.png)
+
+Step 7: Under 'Choose Authentication Method', select 'SSH Key' and then select the SSH key pair that you connected earlier. 
+
+Step 8: Under 'Finalize Details', change the Hostname to a unique name that you will remember easily. 
+
+Step 9: Click 'Create Droplet'. You have now successfully create your Droplet. 
 
 
 
