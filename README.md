@@ -31,7 +31,40 @@ Step 3: Customize the path you copy/pasted
 - Name your key. Change "something-key" into your desired name. Ex: "ocean-key"
 - Replace "youremail@email.com" with your desired email address
 
-Step 4: Press the "Enter" key. You will be asked to enter a passphrase or to leave it empty for no passphrase. You will then receive a confirmation message that your key has now been created. 
+Step 4: Press the "Enter" key. You will be asked to enter a passphrase or to leave it empty for no passphrase. You will then receive a confirmation message that your key has now been created. You have now successfully created your SSH key pair. 
+
+# Add Custom Arch Linux Image 
+Next, you will need to download and add a custom Arch Linux image to Digital Ocean. You may be wondering what a custom image is. According to the Digital Ocean Official Documentation page, "Custom images are Linux distributions that have been modified to fit the specific needs of the developer"(Gonzales, 2018). These images are not "pictures" in this context. A custom Arch Linux image is an Arch Linux distribution (distro). It is a downloadable installation package that contains the necessary software to emulate a version (Arch) of a Linux environment (Rudareanu & Baturin, 2023). We need this image to create a Droplet in Digital Ocean, but we will explain more about that later. Now, let's get started! 
+
+Step 1: Open your Web Browser and navigate to this website link. 
+```
+https://gitlab.archlinux.org/archlinux/arch-boxes/-/packages/
+```
+
+Step 2: On the right hand side of the page, under Published, you will see the publisher name and the date the image was published. 
+assets/publisheddate.png
+Locate the most current date and click 'images' on the left hand side. 
+assets/images.png
+
+Step 3: Under 'Assets', locate the cloud image file that has '.qcow2' at the end of the file name.
+assets/qcow2.png
+Click on the file name to download it automatically. 
+
+Step 4: Log into your Digital Ocean account. 
+
+Step 5: On the left hand side, under 'Manage', click 'Backups & Snapshots'. 
+assets/backups.png
+
+Step 6: Click 'Custom Images'. 
+
+Step 7: On the right hand side, click 'Upload image'. Select the cloud image file that you just downloaded. You will be redirected to this window. 
+assets/upload.png
+As highlighted in the image above, under 'Choose a Distribution', select 'Arch Linux'. Under 'Choose a datacenter region', select 'San Francisco' and '3'. These settings will determine which cloud server your image will be hosted on. 
+
+Step 8: Click 'Upload Image'. You have now successfully added your Arch Linux image to Digital Ocean. 
+
+
+
 
 
 
